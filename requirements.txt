@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
+librosa
+soundfile
+torch
+torchaudio
+umap-learn
+sentence-transformers
+openai-whisper

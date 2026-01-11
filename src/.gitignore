@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+
+# Large datasets (DO NOT UPLOAD)
+data/audio/
+data/metadata/
+data/whisper/text/
+
+# Raw archives
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/
