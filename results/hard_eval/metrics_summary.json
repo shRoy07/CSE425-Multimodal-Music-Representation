@@ -1,0 +1,50 @@
+[
+  {
+    "model": "Audio VAE latents",
+    "k": 7,
+    "silhouette": 0.15892353653907776,
+    "ARI": 0.059807183687398686,
+    "NMI": 0.33567855637872834,
+    "purity": 0.6
+  },
+  {
+    "model": "Lyrics VAE latents (paired)",
+    "k": 7,
+    "silhouette": 0.12440599501132965,
+    "ARI": 0.03964973107525448,
+    "NMI": 0.3140052896436682,
+    "purity": 0.5666666666666667
+  },
+  {
+    "model": "Multimodal latents (paired)",
+    "k": 7,
+    "silhouette": 0.15892229974269867,
+    "ARI": 0.059807183687398686,
+    "NMI": 0.33567855637872834,
+    "purity": 0.6
+  },
+  {
+    "model": "PCA + KMeans (audio latents)",
+    "k": 7,
+    "silhouette": 0.21769699454307556,
+    "ARI": -0.035440359693202854,
+    "NMI": 0.28218783030828354,
+    "purity": 0.5333333333333333
+  },
+  {
+    "model": "Autoencoder + KMeans (audio latents)",
+    "k": 7,
+    "silhouette": 0.24445386230945587,
+    "ARI": 0.03590425531914894,
+    "NMI": 0.3167600318298062,
+    "purity": 0.5333333333333333
+  },
+  {
+    "model": "Raw MFCC + KMeans",
+    "k": 7,
+    "silhouette": 0.16129960119724274,
+    "ARI": -0.017005603228713608,
+    "NMI": 0.30866459629841664,
+    "purity": 0.5333333333333333
+  }
+]
